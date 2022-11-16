@@ -1,12 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
+<html  lang="et">
 
-<html>
+<head>
+  <meta charset="utf-8">
+  <title>Opsüsteemid kodutöö2</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <body>
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-            <h1>Hello World</h1>
-            <p>I'm hosted with GitHub Pages.</p>
+  <link rel="stylesheet" href="/main.css">
 
-      </body>
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Operatsioonsüsteemid kodutöö 2</h1>
+  <h2>Mäluhaldus</h2>
+  <h3>Priidik Meelo Västrik</h3>
+
+  <p>Vali või sisesta kuni kümneelemendiline järjend kujul 4,5;2,7;9,2;4,6;7,1;6,4;8,8;3,6;1,10;9,2</p>
+
+</div>
+<div class="container">
+  <div class="valija">
+    <div class="valik">
+      <input type="radio" id="esimene" name="jada">
+      <label for="esimene">Esimene</label>
+      <p id="esimenejada">4,5;2,7;9,2;4,6;7,1;6,4;8,8;3,6;1,10;9,2</p>
+    </div>
+    <div class="valik">
+      <input type="radio" id="teine" name="jada">
+      <label for="teine">Teine</label>
+      <p id="teinejada">1,10;6,6;3,9;2,4;1,6;5,2;14;5,2;2,1;2,7</p>
+    </div>
+    <div class="valik">
+      <input type="radio" id="kolmas" name="jada">
+      <label for="kolmas">Kolmas</label>
+      <p id="kolmasjada">1,8;35,4;3,6;4,2;1,4;3,3;1,2;5,1;50,1</p>
+    </div>
+    <div class="valik">
+      <input type="radio" id="enda" name="jada" value="">
+      <label for="enda">Enda oma</label>
+      <input type="text" id="endajada" >
+    </div>
+    <p id="tekst">Algoritmi käivitamiseks klõpsa nupule</p>
+    <div class="nupud">
+      <button onclick="firstFit()">First-Fit</button>
+      <button onclick="lastFit()">Last-Fit</button>
+      <button onclick="bestFit()">Best-Fit</button>
+      <button onclick="worstFit()">Worst-Fit</button>
+      <button onclick="randomFit()">Random-Fit</button>
+      <button onclick="puhasta()">Puhasta väljund</button>
+    </div>
+    <div class="grid">
+
+    </div>
+  </div>
+  <p class="küss">
+    Küsimused: <br>
+    Kas meie ülesande tingimustel esineb <br><br>
+
+    &emsp;a) sisemist fragmenteerumist? <br><br>
+    Ei, sest meil on iga vaba mälu osa kasutatav, hõivame mälust ainult selle osa, mida on protsessil päriselt vaja.
+    <br><br>
+    &emsp;b) välist fragmenteerumist? <br><br>
+    Jah, sest kui mõni protsess lõpetab töö, võivad tekkida mällu "augud", mida august suurema mälumahuga protsessid ei saa kasutada, sest me ei tükelda neid. Vaba mälu pole pidev.
+  </p>
+
+
+</div>
+
+
+  <script src="/main.js"></script>
+</body>
 
 </html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+body {
+  font-family: 'Sono', sans-serif;
+  width: 1200px;
+  margin:auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  width: fit-content;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.valik {
+  margin: auto;
+  width:80%;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.valik input {
+  width: min-content;
+  float:left;
+}
+
+.valija {
+  border-radius: 20px;
+  width:80%;
+  background: aquamarine;
+}
+
+.valik p {
+  float: right;
+  margin: 0 0 0 0;
+}
+
+#endajada {
+  float:right;
+  width: 30em;
+  margin: 0 0 0 0;
+}
+.nupud {
+  padding: 0 0 1em 3em;
+}
+
+#tekst{
+  margin-left: 3em;
+}
+.grid {
+  font-size: 0.7em;
+  background: darksalmon;
+  width: 100%;
+  padding-bottom: 2em;
+  border-radius: 0 0 20px 20px;
+}
+
+.rida {
+  display: flex;
+
+  height: 1.5em;
+  align-items: center;
+
+}
+.rida p {
+  margin:0 1em 0 1em;
+}
+.kast {
+  width: 1.4em;
+  height: 1em;
+  border:1px solid black;
+  margin-left: -1px;
+  text-align: center;
+}
+
+
+.rida.\30  .esimenekast{
+    border: none;
+    width: 1.6em;
+    margin-top:1.5em;
+    text-align: center;
+    margin-left: -1px;
+}
+
+.error {
+  background: black;
+  color: white;
+  text-align:center;
+  width: 87%;
+}
+
+.rida.\30 {
+  height: 3em;
+}
+
+.etapp {
+  width: 1.4em;
+  text-align: center;
+}
+.küss {
+  width:50%;
+  margin-left: -30%;
+}
+
+.protsess {
+  width: 5.6em;
+  text-align: center;
+}
+
+.A {
+  background: green;
+}
+.B {
+  background: red;
+}
+.C {
+  background: orange;
+}
+.D {
+  background: blue;
+}
+.E {
+  background: yellow;
+}
+.F {
+  background: purple;
+}
+.G {
+  background: lime;
+}
+.H {
+  background: salmon;
+}
+.I {
+  background: turquoise;
+}
+.J {
+  background: white;
+}
